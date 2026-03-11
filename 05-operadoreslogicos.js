@@ -28,3 +28,4 @@ console.log("Manhã:", manha, "|estou com sono?", sono);
 // comparador E (and) e ou (or)
 console.log("operador AND (e):", manha && sono);
 console.log("operador OR (ou):", manha || sono);
+
