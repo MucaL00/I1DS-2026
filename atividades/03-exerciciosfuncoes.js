@@ -10,6 +10,9 @@ Lista de Exercícios
 */
 
 // idade da pessoa atraves do ano de nascimento
+
+
+
 function obterIdade(anoNascimento) {
   return `ano de nascimento: ${anoNascimento}, idade : ${2026 - anoNascimento}`;
 }
