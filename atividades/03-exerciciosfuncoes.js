@@ -11,14 +11,14 @@ Lista de Exercícios
 
 // idade da pessoa atraves do ano de nascimento
 function obterIdade(anoNascimento) {
-  return `Você nasceu em: ${anoNascimento}, e tem : ${2026 - anoNascimento} anos`;
+  return `ano de nascimento: ${anoNascimento}, idade : ${2026 - anoNascimento}`;
 }
 
 console.log(obterIdade(2009));
-console.log(obterIdade(1800));
+console.log(obterIdade(1990));
 
-function quantidadeCombustivel(combustivel) {
-  return `com ${combustivel}L de combustivel, o carro pode percorrer ${combustivel * 12}km`;
+function quantidadeCombustivel(litros) {
+  return `com ${litros}L de combustivel, o carro pode percorrer ${litros * 12}km`;
 }
 
 console.log(quantidadeCombustivel(30));
