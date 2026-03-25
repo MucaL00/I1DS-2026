@@ -403,63 +403,21 @@ for (let i = 0; i < listaValoresss.length; i++) {
   console.log(listaValoresss[i]);
 }
 
-let matriz = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
+var matriz = [
+  [10, 20, 30],
+  [31, 21, 11],
+  [22, 32, 22],
 ];
 
-// 43
-for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 3; j++) {
-        console.log(matriz[i][j]);
-    }
-}
+console.table(matriz)
 
-// 44
-for (let i = 0; i < 3; i++) console.log(matriz[i][i]);
+console.table(matriz);
+console.log(matriz[0][0]);
+console.log(matriz[1][1]);
+console.log(matriz[2][2]);
 
-// 45
-for (let i = 0; i < 3; i++) console.log(matriz[i][2 - i]);
+console.log("\n")
 
-// 46
-let somaM = 0;
-for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 3; j++) somaM += matriz[i][j];
-}
-console.log("Soma:", somaM);
-
-// 47
-let maiorM = matriz[0][0];
-for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 3; j++) {
-        if (matriz[i][j] > maiorM) maiorM = matriz[i][j];
-    }
-}
-console.log("Maior:", maiorM);
-
-// 48
-let X = 2;
-for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 3; j++) matriz[i][j] *= X;
-}
-console.log(matriz);
-
-// 49
-let count = 0;
-for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 3; j++) {
-        if (matriz[i][j] > 10) count++;
-    }
-}
-console.log("Maiores que 10:", count);
-
-// 50
-for (let i = 0; i < 3; i++) {
-    let linha = "[ ";
-    for (let j = 0; j < 3; j++) {
-        linha += matriz[i][j] + " ";
-    }
-    linha += "]";
-    console.log(linha);
-}
+console.log(matriz[0][2]);
+console.log(matriz[1][1]);
+console.log(matriz[2][2]);
