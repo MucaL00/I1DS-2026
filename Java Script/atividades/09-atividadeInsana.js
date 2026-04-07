@@ -1,7 +1,7 @@
 //                               PARTE 1
 
 // 1
-let nome = "Mucal";
+let nome = "Samuel Garcia Vasconcellos";
 let idade = 16;
 let cidade = "jaú";
 
@@ -199,7 +199,6 @@ switch (mes) {
   case 5:
     console.log("Maio");
     break;
-  // completar conforme necessário
 }
 
 // 23
